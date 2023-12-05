@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let escolha = prompt('Escolha a opção do menu desejada')
+        escolha = parseInt(escolha)
+        let opcao = escolha
+        switch(opcao){
+
+            case 1:
+                document.write('<a href="#" target="_blank">Menu 1</a>')
+            break
+
+            case 2:
+                document.write('<a href="#" target="_blank">Menu 2</a>')
+            break
+
+            case 3:
+                document.write('<a href="#" target="_blank">Menu 3</a>')
+            break
+
+            case 4:
+                document.write('<a href="#" target="_blank">Menu 4</a>')
+            break
+
+            default:
+                document.write(`nenhuma opção válida foi escolhida teste ${escolha}`)
+            break
+        }
+        
+    </script>
+   
+</body>
+</html>

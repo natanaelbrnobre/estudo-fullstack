@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Else</title>
+</head>
+
+<body>
+
+    <script>
+        let n1 = 2
+        let n2 = 1
+        if (n1 < n2) {
+            document.write('n1 é menor que n2')
+        }
+        else {
+            document.write('n2 é menor que n1 <br> <br> <br>')
+        }
+
+
+        let nota1 = prompt('qual a primeira nota? ')
+        let nota2 = prompt('qual a segunda nota? ')
+        let media = (nota1 + nota2) / 2
+
+        if (media >= 7) {
+            document.write('Aluno aprovado')
+        }
+        else {
+            document.write('Aluno reprovado')
+        }
+
+        let resultado = n1 >= n2 ? "sim n1 é maior que n2" : "não n1 é menor que n2"
+
+        console.log(resultado);
+    </script>
+</body>
+
+</html>
