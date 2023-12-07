@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        function calcularAreaTerreno(largura, comprimento){
+            let area = largura * comprimento
+
+            return area
+        }
+
+        let resultado = calcularAreaTerreno(15, 25)
+        document.write(`O terreno possui ${resultado}m²`)
+
+
+        function areaCubo(base, altura){
+            let cubo = (base * altura)/2
+
+            return cubo
+        }
+
+        let cuboresult = areaCubo(2, 10)
+        document.write(`A Area do cubo tem ${cuboresult}m`)
+    </script>
+</body>
+</html>
